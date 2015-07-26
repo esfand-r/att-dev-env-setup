@@ -7,6 +7,7 @@ One of the scripts deal with setting up the development environment and the othe
 
 ## Environment Setup
 This could be used when you have just received your machine or when you are done with a much needed format. env-setup.sh install the following packages if they don't exist:
+
 1. Brew
 2. Git
 3. Maven
