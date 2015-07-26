@@ -1,4 +1,4 @@
-# ATT ObBoarding Package
+# ATT OnBoarding Package
 This document aims to facilitate the onboarding process to AT&T related work. There are two ways to setup your environment. One way is to use the provided package which includes a bunch of scripts utilizing bash and docker to setup your environment. And of course there is always the manual way to setup our environment component by component, piece by piece which arguebly has more of a learning value since you will end up with more details to deal with. 
 
 The package you find  here is made of two root scripts which you can run together by executing run-all-tasks.sh or run them individually. 
