@@ -24,7 +24,4 @@ All the services necessary to run AppDirect, Att Standalone and Boost Emulator p
 3. MySql (Used in AppDirect and Standalone). When deployed for the first time, this will give a mysql instance with necessary databases populated by initial data dataset that helps running AppDirect and Standalone together easily. At the time of deployment and if the container already has data, no special instruction is executed and we can access our persisted database same as before shutting it down.
 4. MongoDB (Used in Emulator)
 
-Additionally, this package includes additional-services in case an engineer does not need to bother dealing with source code of standalone or emulator and he/she just wants to run them as services and work only with AppDirect platform. 
-
-At the moment emulator jars must be manually copied to the corresponding directories under additional-services until we make them available and fetch them from the artifactory.
-
+Additionally, this package includes additional-services in case an engineer does not need to bother dealing with source code of standalone or emulator and he/she just wants to run them as services and work only with AppDirect platform. Right now fetch-last-snapshot.sh gets the latest snapshot jar from artifactory.
